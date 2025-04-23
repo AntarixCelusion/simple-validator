@@ -1,6 +1,6 @@
 {
     "name": "@AntarixCelusion/simple-validation",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "A Deno module for simple validations",
     "exports": {
       "./mod.ts": "./mod.ts"

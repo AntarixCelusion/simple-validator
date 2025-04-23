@@ -34,7 +34,7 @@ import { validate, required, email } from "@celusion/simple-validator";
 ### Browser (via ESM CDN)
 ```html
 <script type="module">
-  import { required, validate } from "https://jsr.io/@antarixcelusion/simple-validator/mod.ts";
+  import { required, validate } from "https://jsr.io/@celusion/simple-validator/mod.ts";
 
   console.log(validate("", [[required]])); // false
 </script>
@@ -63,7 +63,7 @@ console.log({ nameValid, emailValid, panValid });
 | **Deno**     | ✅ Native |
 | **Browser**  | ✅ ESM import via `jsr.io` or `esm.sh` |
 | **Node.js**  | ✅ Via `jsr:@...` npm compatibility |
-| **npm / pnpm / yarn** | ✅ Use `npm install jsr:@antarixcelusion/simple-validator` |
+| **npm / pnpm / yarn** | ✅ Use `npm install jsr:@celusion/simple-validator` |
 
 ---
 
